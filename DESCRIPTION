@@ -1,0 +1,24 @@
+Package: Stock
+Type: Package
+Title: Statistical tools for analyzing stocks and portfolios
+Version: 1.0
+Date: 2021-05-28
+Author: Bianchi Federico, Corti Matteo, Giay Simone, Passano Andreas
+Maintainer: <andreaspassano@gmail.com>
+Description: This package allows the user to Download data directly from Yahoo finance. It offers tools to analyze and visualize the stocks prices and returns in order to gain a deeper statistical understanding. The user has also the possibility to form a portfolio of stocks in which to run the same analysis and test different back-testing strategies.
+License: CC BY
+Imports:
+    TTR,
+    quantmod,
+    quadprog,
+    ggplot2,
+    shiny,
+    shinydashboard,
+    DT, 
+    shinyWidgets
+Depends:
+    ggplot2,
+    shiny,
+    shinydashboard,
+    DT, 
+    shinyWidgets
